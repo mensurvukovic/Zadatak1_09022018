@@ -4,7 +4,8 @@ public class MainMethod {
 
 	public static void main(String[] args) {
 		
-
+		//Emirps.emirps();
+		//MarsennePrimes.printMersennePrimes();
 	}
 
 }
