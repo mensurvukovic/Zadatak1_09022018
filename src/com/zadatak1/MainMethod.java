@@ -8,7 +8,7 @@ public class MainMethod {
 	public static void main(String[] args) {
 
 		System.out.println(
-				"\n1. Print Armstrong numbers \n2. Print Emirps numbers \n3. Print Fibonacci + "
+				"\n1. Print Armstrong numbers \n2. Print Emirps numbers \n3. Print Fibonacci"
 				+ "\n4. Print Marsenne primes numbers \n5. Print Prime numbers");
 		int option = input.nextInt();
 		
@@ -17,29 +17,42 @@ public class MainMethod {
 		case 1:
 			
 			ArmstrongNumbers.armstrong();
+			MainMethod.main(args);
 			
 			break;
 		
 		case 2:
 			
+			Emirps.emirps();
+			MainMethod.main(args);
+			
 			break;
 			
 		case 3:
+			
+			Fibonacci.fibonacci();
+			MainMethod.main(args);
 			
 			break;
 			
 		case 4:
 			
+			MarsennePrimes.printMersennePrimes();
+			MainMethod.main(args);
+			
 			break;
 			
 		case 5:
+			
+			primeNumbers.primeNum();
+			MainMethod.main(args);
 			
 			break;
 			
 		}
 		
-		//Emirps.emirps();
-		//MarsennePrimes.printMersennePrimes();
+
+		
 	}
 
 }
