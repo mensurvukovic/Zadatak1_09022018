@@ -38,7 +38,8 @@ public class MainMethod {
 			
 		}
 		
-
+		//Emirps.emirps();
+		//MarsennePrimes.printMersennePrimes();
 	}
 
 }
